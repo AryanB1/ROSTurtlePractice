@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros2_obstacle_avoidance_cpp</name>
+  <version>0.0.0</version>
+  <description>Obstacle avoidance node in C++</description>
+  <maintainer email="aryan@example.com">Aryan</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
